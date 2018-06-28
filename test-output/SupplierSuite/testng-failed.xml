@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SupplierSuite]">
+  <parameter name="browsername" value="CH"/>
+  <test name="SupplierTest5(failed)">
+    <parameter name="browsername" value="CH"/>
+    <classes>
+      <class name="SaveAndDelete.Credit_Save_NFR">
+        <methods>
+          <include name="afterTest"/>
+          <include name="CreditSaveNFR" invocation-numbers="0"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- SaveAndDelete.Credit_Save_NFR -->
+    </classes>
+  </test> <!-- SupplierTest5(failed) -->
+</suite> <!-- Failed suite [SupplierSuite] -->

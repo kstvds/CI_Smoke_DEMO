@@ -1,0 +1,34 @@
+<!--parallel="tests" thread-count="2"-->
+<suite name="SupplierSuite">
+ <test name="SupplierTest1" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveAndDelete.Credit_Save" />
+</classes> 
+</test>  
+  <test name="SupplierTest2" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveAndDelete.Credit_Card_Save" />
+</classes> 
+</test>    
+  <test name="SupplierTest3" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveAndDelete.Credit_Save_Within_DeadLine" />
+</classes> 
+</test> 
+  <test name="SupplierTest4" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveAndDelete.Credit_Card_Save_Within_DeadLine" />
+</classes> 
+</test>  
+<test name="SupplierTest5" >
+<parameter name="browsername" value="CH"/>
+<classes> 
+<class name="SaveAndDelete.Credit_Save_NFR" />
+</classes> 
+</test> 
+
+</suite>
